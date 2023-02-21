@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  font-size: 4rem;
+  font-family: arial;
+}
+
+.v-box {
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+.picture1{
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+    background-image: url("https://cdn.discordapp.com/attachments/874526652644884490/894803250652532756/1.png");
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+  
+}
+
+.h-box {
+  min-width:100vw;
+  min-height:100vh;
+  background-color: black;
+}
+.picture2{
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+    background-image: url("https://cdn.discordapp.com/attachments/874526652644884490/894803263587745862/2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.picture3{
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+    background-image: url("https://cdn.discordapp.com/attachments/874526652644884490/894803274308415508/3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+.picture4{
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+    background-image: url("https://cdn.discordapp.com/attachments/874526652644884490/894803279261872148/4.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+}
+.picture5{
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+    background-image: url("https://cdn.discordapp.com/attachments/874526652644884490/894803291450519592/5.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+} 
+
+.picture6{
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+    background-image: url("https://cdn.discordapp.com/attachments/874526652644884490/894809544381833236/6edit2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+} 
+
+.picture7{
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+    background-image: url("https://cdn.discordapp.com/attachments/874526652644884490/894809444326715422/11edit2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+} 
+
+.picture8{
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+    background-image: url("https://cdn.discordapp.com/attachments/874526652644884490/894809510378631168/7edit2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+} 
+
+.v-box, .h-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+
+.one {
+  background-color: #45CCFF;
+}
+.two {
+  background-color: #49E83E;
+}
+.three {
+  background-color: #12FF00;
+}
+.four {
+  background-color: #EDDE05;
+}
+.five {
+  background-color: #FFC0CB;
+}
+
+#scrollHorizontal {
+  display:flex;
+}
+
+#ss {
+  display:flex;
+  flex-direction: row-reverse;
+}

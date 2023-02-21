@@ -1,0 +1,948 @@
+.wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+.wrapper-tude{
+  width: 100%;
+  height: 200%;
+  overflow: hidden;
+}
+.sections {
+  width: 500%;
+  height: 100%;
+}
+
+.sections2 {
+  width: 500%;
+  height: 100%;
+  float: right;
+}
+.sections3 {
+  width: 100%;
+  height: 100%;
+  float: left;
+}
+#js-slideContainer2{
+  display: flex;
+  flex-direction: row-reverse;
+}
+#js-slideContainer4{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.section {
+  height: 100vh;
+  width: calc(100% / 5);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  float: left;
+}
+.section2 {
+  height: 100vh;
+  width: calc(100% / 5);
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  float: left;
+}
+.section3 {
+  height: 100vh;
+  width: calc(100% / 5);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  float: left;
+}
+.section4 {
+  height: 100vh;
+  width: calc(100% / 5);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  float: left;
+}
+.tude{
+  height: 200vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  float: left;
+  background-image: url("IMG/finalyai.png");
+}
+.section-first {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  float: left;
+}
+.section-end {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  float: left;
+}
+.section-first-small {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  float: left;
+}
+.section-end-small {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  float: left;
+}
+#Bac1 {
+  width: 100%;
+}
+
+.Bacteria1 {
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  top:50%;
+  left: 10%;
+  animation: up-down1 10s infinite ;
+}
+
+#Bac2 {
+  width: 100%;
+}
+
+.Bacteria2 {
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  top:30%;
+  left: 40%;
+  animation: up-down2 10s infinite ;
+}
+
+#Bac3 {
+  width: 100%;
+}
+
+.Bacteria3 {
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  top:70%;
+  left: 70%;
+  animation: up-down3 10s infinite ;
+}
+
+#Bac4 {
+  width: 100%;
+}
+
+.Bacteria4 {
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  left: 90%;
+  animation: up-down4 10s infinite ;
+}
+
+.water1{
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  left: 10%;
+  animation: willdis1 10s infinite ;
+}
+.water2{
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  left: 40%;
+  animation: willdis2 8s infinite ;
+}
+.water3{
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  left: 70%;
+  animation: willdis3 7s infinite ;
+}
+.water4{
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  left: 90%;
+  animation: willdis4 9s infinite ;
+}
+.water5{
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  left: 25%;
+  animation: willdis5 6s infinite ;
+}
+.water6{
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  left: 25%;
+  animation: willdis6 5s infinite ;
+}
+.water7{
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  left: 85%;
+  animation: willdis7 8s infinite ;
+}
+.teinlek1{
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  left: 25%;
+  animation: next 5s linear infinite ;
+  opacity: 0;
+}
+.teinlek2{
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  left: 25%;
+  animation: next 5s linear infinite ;
+  animation-delay: 1s;
+  opacity: 0;
+}
+.teinlek3{
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  left: 25%;
+  animation: next 5s linear infinite ;
+  animation-delay: 2s;
+  opacity: 0;
+}
+.teinlek4{
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  left: 25%;
+  animation: next 5s linear infinite ;
+  animation-delay: 3s;
+  opacity: 0;
+}
+.vertical1{
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  animation: verti 5s linear infinite ;
+  animation-delay: 1s;
+  opacity: 0;
+}
+.vertical2{
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  animation: verti 5s linear infinite ;
+  animation-delay: 2s;
+  opacity: 0;
+}
+.vertical3{
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  animation: verti 5s linear infinite ;
+  animation-delay: 3s;
+  opacity: 0;
+}
+.vertical4{
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  animation: verti 5s linear infinite ;
+  animation-delay: 4s;
+  opacity: 0;
+}
+.vertical5{
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  animation: verti 5s linear infinite ;
+  animation-delay: 5s;
+  opacity: 0;
+}
+@keyframes verti {
+  0% {
+    opacity: 0;
+    top:0%;
+    left: 15%;
+  }
+  25%{
+    opacity: 1;
+    top:25%;
+    left: 15%;
+  }
+  50%{
+    opacity: 1;
+    top:50%;
+    left: 15%;
+  }
+  75%{
+    opacity: 1;
+    top:67.5%;
+    left: 15%;
+  }
+  100% {
+    top: 67.5%;
+    left: 0%;
+    opacity:0;
+  }
+}
+.travel1{
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  animation: nextback 5s linear infinite ;
+  animation-delay: 1s;
+  opacity: 0;
+}
+.travel2{
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  animation: nextback 5s linear infinite ;
+  animation-delay: 2s;
+  opacity: 0;
+}
+.travel3{
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  animation: nextback 5s linear infinite ;
+  animation-delay: 3s;
+  opacity: 0;
+}
+.travel4{
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  animation: nextback 5s linear infinite ;
+  animation-delay: 4s;
+  opacity: 0;
+}
+.travel5{
+  width: 10%;
+  height: 10%;
+  position: absolute;
+  animation: nextback 5s linear infinite ;
+  animation-delay: 5s;
+  opacity: 0;
+}
+@keyframes nextback {
+  0% {
+    opacity: 0;
+    top:65%;
+    right: 0%;
+  }
+  25%{
+    opacity: 1;
+    top:70%;
+    right: 22.5%;
+  }
+  50%{
+    opacity: 1;
+    top:65%;
+    right: 45%;
+  }
+  75%{
+    opacity: 1;
+    top:75%;
+    right: 67.5%;
+  }
+  100% {
+    top:65%;
+    right: 90%;
+    opacity: 0;
+  }
+}
+@keyframes next {
+  0% {
+    opacity: 0;
+    top:65%;
+    left: 0%;
+  }
+  25%{
+    opacity: 1;
+    top:70%;
+    left: 22.5%;
+  }
+  50%{
+    opacity: 1;
+    top:65%;
+    left: 45%;
+  }
+  75%{
+    opacity: 1;
+    top:75%;
+    left: 67.5%;
+  }
+  100% {
+    top:65%;
+    left: 90%;
+    opacity: 0;
+  }
+}
+@keyframes willdis1 {
+  0% {
+    opacity: 0;
+    top:10%;
+  }
+  25%{
+    top:15%;
+    opacity: 0;
+  }
+  50%{
+    top:10%;
+    opacity: 1;
+  }
+  75%{
+    top:15%;
+    opacity: 1;
+  }
+  100% {
+    top:10%;
+    opacity: 0;
+  }
+}
+@keyframes willdis2 {
+  0% {
+    opacity: 0;
+    top:70%;
+  }
+  25%{
+    top:65%;
+    opacity: 0;
+  }
+  50%{
+    top:70%;
+    opacity: 1;
+  }
+  75%{
+    top:65%;
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    top:70%;
+  }
+}
+@keyframes willdis3 {
+  0% {
+    
+    top:30%;
+    opacity: 0;
+  }
+  25%{
+    top:35%;
+    opacity: 0;
+  }
+  50%{
+    top:30%;
+    opacity: 1;
+  }
+  75%{
+    top:35%;
+    opacity: 1;
+  }
+  100% {
+    top:30%;
+    opacity: 0;
+  }
+}
+
+@keyframes willdis4 {
+  0% {
+    top:50%;
+    opacity: 0;
+  }
+  25%{
+    top:40%;
+    opacity: 0;
+  }
+  50%{
+    top:50%;
+    opacity: 1;
+  }
+  75%{
+    top:40%;
+    opacity: 1;
+  }
+  100% {
+    top:50% ;
+    opacity: 0;
+  }
+}
+@keyframes willdis5 {
+  0% {
+    top:60%;
+    opacity: 0;
+  }
+  25%{
+    top:55%;
+    opacity: 0;
+  }
+  50%{
+    top:60%;
+    opacity: 1;
+  }
+  75%{
+    top:55%;
+    opacity: 1;
+  }
+  100% {
+    top:60% ;
+    opacity: 0;
+  }
+}
+@keyframes willdis6 {
+  0% {
+    top:20%;
+    opacity: 0;
+  }
+  25%{
+    top:25%;
+    opacity: 0;
+  }
+  50%{
+    top:20%;
+    opacity: 1;
+  }
+  75%{
+    top:25%;
+    opacity: 1;
+  }
+  100% {
+    top:20% ;
+    opacity: 0;
+  }
+}
+@keyframes willdis7 {
+  0% {
+    top:20%;
+    opacity: 0;
+  }
+  25%{
+    top:25%;
+    opacity: 0;
+  }
+  50%{
+    top:20%;
+    opacity: 1;
+  }
+  75%{
+    top:25%;
+    opacity: 1;
+  }
+  100% {
+    top:20% ;
+    opacity: 0;
+  }
+}
+@keyframes up-down4 {
+  0% {
+    top:10%;
+  }
+  25%{
+    top:15%;
+  }
+  50%{
+    top:10%;
+  }
+  75%{
+    top:15%;
+  }
+  100% {
+    top:10%;
+  }
+}
+@keyframes up-down3 {
+  0% {
+    top:70%;
+  }
+  25%{
+    top:65%;
+  }
+  50%{
+    top:70%;
+  }
+  75%{
+    top:65%;
+  }
+  100% {
+    top:70%;
+  }
+}
+@keyframes up-down2 {
+  0% {
+    top:30%;
+  }
+  25%{
+    top:35%;
+  }
+  50%{
+    top:30%;
+  }
+  75%{
+    top:35%;
+  }
+  100% {
+    top:30%;
+  }
+}
+
+@keyframes up-down1 {
+  0% {
+    top:50%;
+  }
+  25%{
+    top:40%;
+  }
+  50%{
+    top:50%;
+  }
+  75%{
+    top:40%
+  }
+  100% {
+    top:50%;
+  }
+}
+
+
+.section:nth-child(1) {
+  background-image: url("IMG/yai1.png");
+}
+.section:nth-child(2) {
+  background-image: url("IMG/yai2.png");
+}
+.section:nth-child(3) {
+  background-image: url("IMG/yai3.png");
+}
+.section:nth-child(4) {
+  background-image: url("IMG/yai4.png");
+}
+.section:nth-child(5) {
+  background-image: url("IMG/yai5.png");
+}
+
+.section2:nth-child(1) {
+  background-image: url("IMG/yai6.png");
+}
+.section2:nth-child(2) {
+  background-image: url("IMG/yai7.png");
+}
+.section2:nth-child(3) {
+  background-image: url("IMG/yai8.png");
+}
+.section2:nth-child(4) {
+  background-image: url("IMG/yai9.png");
+}
+.section2:nth-child(5) {
+  background-image: url("IMG/yai10.png");
+}
+
+.section3:nth-child(1) {
+  background-image: url("IMG/lek1.png");
+}
+.section3:nth-child(2) {
+  background-image: url("IMG/lek2.png");
+}
+.section3:nth-child(3) {
+  background-image: url("IMG/lek3.png");
+}
+.section3:nth-child(4) {
+  background-image: url("IMG/lek4.png");
+}
+.section3:nth-child(5) {
+  background-image: url("IMG/lek5.png");
+}
+
+.section4:nth-child(1) {
+  background-image: url("IMG/lek6.png");
+}
+.section4:nth-child(2) {
+  background-image: url("IMG/lek7.png");
+}
+.section4:nth-child(3) {
+  background-image: url("IMG/lek8.png");
+}
+.section4:nth-child(4) {
+  background-image: url("IMG/lek9.png");
+}
+.section4:nth-child(5) {
+  background-image: url("IMG/lek10.png");
+}
+
+.layer {
+  background-color: rgb(255 12 12 / 20%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.content-nochange {
+  width: 50%;
+  color: #fff;
+  position: relative;
+  text-align: center;
+}
+.content-tude {
+  width: 50%;
+  color: #fff;
+  position: relative;
+  text-align: center;
+
+  opacity: 0;
+}
+.content {
+  width: 50%;
+  color:whitesmoke;
+  font-weight: 700;
+  border-radius: 15px;
+  position: relative;
+  text-align: center;
+  border: 4px solid rgb(61, 75, 75);
+  background: rgb(102, 126, 126);
+}
+.content2 {
+  width: 50%;
+  color:whitesmoke;
+  font-weight: 700;
+  border-radius: 15px;
+  position: relative;
+  text-align: center;
+  border: 3px solid rgb(61, 75, 75);
+  background: rgb(102, 126, 126);
+}
+.content3 {
+  width: 50%;
+  color:whitesmoke;
+  font-weight: 700;
+  border-radius: 15px;
+  position: relative;
+  text-align: center;
+  border: 3px solid rgb(61, 75, 75);
+  background: rgb(102, 126, 126);
+}
+.content4 {
+  width: 50%;
+  color:whitesmoke;
+  font-weight: 700;
+  border-radius: 15px;
+  position: relative;
+  text-align: center;
+  border: 3px solid rgb(61, 75, 75);
+  background: rgb(102, 126, 126);
+}
+
+.section p {
+  font-size: 5vh;
+  font-weight: bold;
+}
+
+.sectionTitle {
+  font-size: 3.2vw;
+  margin: 4px 4px 4px 4px;
+  font-weight: bold;
+}
+.sectionTitle-lamsai {
+  font-size: 8vh;
+  font-weight: 400;
+  font-weight: bold;
+  
+}
+.sectionTitle-up{
+  font-size: 10em;
+}
+.sectionTitle-tude {
+  font-size: 3.5vw;
+  font-weight: bolder;
+}
+.medium-size{
+  font-size: 5vh;
+  font-weight: bold;
+}
+.small-size{
+  font-size: 1.9vw;
+  font-weight: bold;
+}
+.shit{
+  display: block;
+  width: 35%;
+  height: 10%;
+  left: 50%;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* animation: verti 5s linear infinite ;
+  animation-delay: 5s;
+  opacity: 0; */
+}
+@media all and (max-width: 768px) {
+  .content {
+    width: 80%;
+  }
+  .content2 {
+    width: 80%;
+  }
+  .content3 {
+    width: 80%;
+  }
+  .content4 {
+    width: 80%;
+  }
+}
+#yai .wrapper{
+  background-color: hsl(0, 71%, 65%);
+}
+#lek[data-active="0"] .wrapper {
+  background-color: #f6c0ba;
+    transition: all 0.7s;
+}
+#lek[data-active="1"] .wrapper {
+  background-color: rgb(236, 142, 142);
+  transition: all 0.7s;
+}
+#lek[data-active="0"] .sectionTitle-lamsai {
+transform: scale(0);
+transition: all 0.6s;
+}
+#lek[data-active="1"] .sectionTitle-lamsai  {
+  transform: scale(1);
+  transition: all 0.6s;
+}
+#lekpaiyai[data-active="0"] .wrapper {
+background-color: rgb(236, 142, 142);
+transition: all 0.7s;
+}
+#lekpaiyai[data-active="1"] .wrapper {
+background-color: hsl(0, 71%, 65%);
+  transition: all 0.7s;
+}
+#lekpaiyai[data-active="0"] .sectionTitle-lamsai {
+  transform: scale(0);
+  transition: all 0.6s;
+}
+#lekpaiyai[data-active="1"] .sectionTitle-lamsai  {
+    transform: scale(1  );
+    transition: all 0.6s;
+}
+
+#tude{
+  background-color: hsl(0, 71%, 65%);
+}
+#tude[data-active="0"]  {
+  background-color: hsl(0, 71%, 65%);
+  transition: all 0.6s;
+}
+#tude[data-active="1"]  {
+  background-color: hsl(179, 12%, 83%);
+  transition: all 0.6s;
+}
+
+#shit[data-active="0"] .content-nochange {
+  transition: all 0.8s;
+  transform: scale(0);
+  opacity: 0;
+}
+#shit[data-active="1"] .content-nochange {
+  transition: all 0.8s;
+  transform: scale(1);
+  color: black;
+  opacity: 1;
+}
+
+#shit2[data-active="0"] .shit {
+  transition: all 8s;
+  top:0%;
+}
+#shit2[data-active="1"] .shit {
+  transition: all 8s;
+  top:100%;
+}
+#freedom[data-active="0"] .content-tude {
+  transition: all 0.5s;
+  transform: scale(0);
+  color: black;
+  opacity: 0;
+}
+#freedom[data-active="1"] .content-tude {
+  transition: all 0.5s;
+  transform: scale(1);
+  color: black;
+  opacity: 1;
+}
+#freedom[data-active="0"] .wrapper-tude {
+  transition: all 0.8s;
+  background-color: rgb(202, 183, 183);
+
+}
+#freedom[data-active="1"] .wrapper-tude {
+  transition: all 0.8s;
+  background-color: whitesmoke;
+}
+/* .teststicky {
+  transition: 0.2s;
+  width: 280px; 
+  height: 400px; 
+  padding-left: 650px;
+  position: -webkit-sticky; 
+  position: sticky; 
+  top: 200;
+  z-index: 1;
+  opacity: 1;
+  animation: up-down2 4s infinite ;
+}
+.teststicky:hover {
+  transition: 0.2s;
+  opacity: 0;
+} */
